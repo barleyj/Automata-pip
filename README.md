@@ -70,3 +70,6 @@ res = ob.execute('What is the meaning of life?')
 
 print res
 ```
+
+
+Note: Contributions and suggestions are always invited
