@@ -12,7 +12,7 @@ CLASSIFIERS = [
     ]
 
 # calling the setup function 
-setup(name='automata',
+setup(name='python-automata',
       version='0.0.1',
       description='A personal assistant with pluggable modules',
       long_description=open('README.md').read(),
@@ -20,7 +20,7 @@ setup(name='automata',
       author='Rahul Arora',
       author_email='coderahul94@gmail.com',
       license='MIT',
-      packages=['automata'],
+      packages=['automata', 'automata/modules'],
       classifiers=CLASSIFIERS,
       install_requires=REQUIREMENTS,
       keywords='automata, personal assistant, ML'

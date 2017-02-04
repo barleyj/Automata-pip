@@ -8,7 +8,7 @@ Installation
 ------------
 
 ```
-pip install automata
+pip install python-automata
 ```
 
 
