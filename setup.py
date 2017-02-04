@@ -1,7 +1,7 @@
 from setuptools import setup
 
 # specify requirements of your package here
-REQUIREMENTS = ['wodster']
+REQUIREMENTS = ['wordster']
 
 # some more details
 CLASSIFIERS = [
