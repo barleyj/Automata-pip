@@ -40,5 +40,8 @@ class Automata:
 
 		sorted_modules = sorted(module_match_dict.items(), key=operator.itemgetter(1))
 
+		if sorted_modules[-1][1] == 0:
+			return 'No module found to execute this query'
+
 		exec_module = self.modules_dict[sorted_modules[-1][0]]
 		return exec_module.run(query)

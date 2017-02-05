@@ -1,4 +1,4 @@
-KEYWORDS = ['meaning', 'life']
+KEYWORDS = ['what', 'meaning', 'life']
 
 
 def run(query=''):
